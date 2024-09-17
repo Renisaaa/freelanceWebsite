@@ -223,3 +223,77 @@
     font-family:sans-serif;
 }
 
+.homepage-services{
+    background-color: white;
+    width: 100%;
+    padding-top: 5%;
+}
+
+.homepage-services-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.homepage-services-title {
+    color: rgb(2, 49, 47);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.homepage-services-description {
+    color: rgb(2, 49, 47);
+    font-size: 48px;
+    font-weight: 500;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.homepage-services-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 5%;
+}
+
+.homepage-services-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* align-items: center; */
+    width: 30%;
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+
+.homepage-services-card-title {
+    color: rgb(2, 49, 47);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    font-family:sans-serif;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+
+.homepage-services-card-subtitle {
+    color: #666;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+.homepage-services-image{
+    max-height: 550px;
+}
+
