@@ -2,18 +2,22 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className=" flex  items-center flex-row w-[80%] bg-gray-100 rounded-full p-1 h-[80px] absolute top-10 opacity-60">
-      <div className="navbar-left flex flex-row gap-4 p-10">
-        <div>
-          <p className="font-bold text-l via-lime-800 btn">All pages</p>
-        </div>
-        <p className="font-bold text-l">Works</p>
-        <p className="font-bold text-l">Contact</p>
+    <div className=" flex  items-center justify-between  w-[80%] bg-gray-100 rounded-full p-1 h-[80px] fixed top-10 opacity-60 z-[1000] shadow-lg">
+      <div className="navbar-left flex flex-1  gap-4 p-10">
+        <p className="font-bold text-l text-teal-900 hover:text-teal-700">
+          All pages
+        </p>
+        <p className="font-bold text-l text-teal-900 hover:text-teal-700">
+          Works
+        </p>
+        <p className="font-bold text-l text-teal-900 hover:text-teal-700">
+          Contact
+        </p>
       </div>
-      <div className="mx-auto">
-        {" "}
-        <p className="font-bold text-2xl">Gunjan's</p>{" "}
+      <div className="flex-1 text-center">
+        <p className="font-bold text-3xl text-teal-900">{"Gunjan's"}</p>
       </div>
+      <div className="flex-1">{""}</div>
     </div>
   );
 };
