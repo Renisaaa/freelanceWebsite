@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import AboutUs from "@/components/AboutUs";
 import HomeInfo from "@/components/HomeInfo";
 import UnlockYourDream from "@/components/UnlockYourDream";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       </section>
 
       <HomeInfo />
+      <Testimonials />
       <UnlockYourDream />
     </main>
   );
