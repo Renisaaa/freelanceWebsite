@@ -29,19 +29,22 @@ const Testimonials: React.FC = () => {
   ];
   return (
     <div className="flex w-screen">
-      <div className="testimonials-container w-[55%] p-5 flex-2 bg-teal-900 flex flex-col justify-center gap-24 items-center">
+      <div
+        className="testimonials-container w-[55%] p-5 flex-2  flex flex-col justify-center gap-24 items-center"
+        style={{ backgroundColor: "rgb(2, 49, 47)" }}
+      >
         <div className="mr-48">
-          <h5 className="text-white mb-1 mt-5">TESTIMONIALS</h5>
-          <h2 className="text-white font-semibold text-3xl mb-4">
+          <h5 className="text-white mb-4 ">TESTIMONIALS</h5>
+          <h2 className="text-white font-semibold text-5xl mb-4">
             Client Stories
           </h2>
         </div>
-        <div className="w-[400px]">
+        <div className="w-[500px]">
           <Slider {...settings}>
             {testData?.map((ele, index) => {
               return (
                 <div key={index} className="w-20 h-20 text-white">
-                  <h2 className="text-3xl mb-3">{ele.message}</h2>
+                  <h2 className="text-4xl mb-3">{ele.message}</h2>
                   <p>{ele.author}</p>
                   <p>{ele.profession}</p>
                 </div>

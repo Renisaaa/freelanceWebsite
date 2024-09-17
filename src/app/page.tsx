@@ -19,8 +19,9 @@ export default function Home() {
       </section>
 
       <HomeInfo />
-      <HomepageServices />
       <Testimonials />
+
+      <HomepageServices />
       <UnlockYourDream />
     </main>
   );
