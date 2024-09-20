@@ -6,6 +6,7 @@ import HomeInfo from "@/components/HomeInfo";
 import UnlockYourDream from "@/components/UnlockYourDream";
 import HomepageServices from "@/components/HomepageServices";
 import Testimonials from "@/components/Testimonials";
+import WorkingProcess from "@/components/WorkingProcess";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Testimonials />
 
       <HomepageServices />
+      <WorkingProcess />
       <UnlockYourDream />
     </main>
   );
