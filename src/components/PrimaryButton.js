@@ -1,8 +1,7 @@
 "use client";
 import React from "react";
 import image from "../assets/arrow-up.svg";
-// import { useRouter } from "next/router";
-// import { openInNewTab } from "../../helpers/openInNewTab";
+import { useRouter } from "next/navigation";
 function PrimaryButton({
   buttonText,
   linkTo,
@@ -11,6 +10,7 @@ function PrimaryButton({
   customWidthValue,
   bgColor,
 }) {
+  const router = useRouter();
   const clickHandler = () => {
     if (clickHandle) {
       clickHandle();

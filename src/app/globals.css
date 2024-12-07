@@ -29,7 +29,6 @@
   width: 100%;
   background-color: white;
   padding: 20px;
-  height: 300px;
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -67,6 +66,7 @@
   flex: 1;
   margin-left: 7%;
   margin-top: 6%;
+  line-height: normal;
 }
 
 .about-us-title {
@@ -122,6 +122,7 @@
   width: 100%;
   padding: 20px;
   background-color: white;
+  flex-wrap: wrap;
 }
 
 .home-info-card {
@@ -259,6 +260,7 @@
   font-weight: 500;
   text-align: left;
   font-family: sans-serif;
+  line-height: normal;
 }
 
 .homepage-services-bottom {
@@ -539,4 +541,37 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
+}
+
+@media screen and (max-width: 986px) {
+  .about-us {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .about-us-description1 {
+    color: rgb(2, 49, 47);
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 0px !important;
+    text-align: left;
+    font-family: sans-serif;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .home-info-card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .homepage-services-top {
+    flex-direction: column;
+  }
 }
