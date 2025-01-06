@@ -54,7 +54,7 @@ const WorkingProcess = () => {
       <div className="working-process-bottom">
         {array2.map((item, index) => (
           <div className="working-process-card" key={index}>
-            <p className="working-process-card-number">{index + 1}</p>
+            <p className="working-process-card-number">{index + 3}</p>
             <p className="working-process-card-title">{item.title}</p>
             <p className="working-process-card-subtitle">{item.subTitle}</p>
           </div>

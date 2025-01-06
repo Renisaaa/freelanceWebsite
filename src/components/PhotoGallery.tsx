@@ -21,7 +21,7 @@ const PhotoGallery: React.FC = () => {
     autoplaySpeed: 2000,
   };
   return (
-    <div className="h-56 w-screen p-10 sm:h-64 xl:h-80 2xl:h-96">
+    <div className="h-56 w-screen p-10 sm:h-[23rem] xl:h-80 2xl:h-96">
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index} className="w-40 h-96 px-2">
